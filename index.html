@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="head">
+<h4>Add Nominee</h4>  <h3>Get whatsApp notification</h3>
+        </section>
+        <hr />
+        <form action="url" method="post" >
+            <div class="formbox">
+
+                <label for="Relationship">Relationship*</label> <br />
+                <input type="text" placeholder="spouse" class="input" required/>
+
+                <label for="Nominee Name" class="tag">Nominee Name*</label> <br />
+                <input type="text" class="input tag" required/>
+                
+                <label for="DOB">Date of Birth*</label> <br />
+                <input type="date" placeholder="dd mm yyyy" class="input" required/> <br / >
+                <label for="Address">Address*</label> <br />
+                <div class="add">
+                    <label for="radio 1">Field to enter complete address*</label>
+                    <input type="radio"  name="Field to enter complete address" id="0">
+                    <label for="radio 2">Same as my address*</label> 
+                    <input type="radio"  name="Same as my address" id="1">
+                </div>
+            <br> 
+               <textarea name="write" id="2" cols="80" rows="5"></textarea> <br />
+                 
+                <label for="pincode">pincode*</label> <br>
+                <input type="number" class="input" required/>
+                
+                <label for="City" class="tag">City*</label> <br>
+                <input type="text" class="input tag " required/>
+                
+                <label for="State">State*</label> <br>
+                <input type="text" class="input" required/>
+                
+                <label for="Country" class="tag">Country*</label><br>
+                <input type="text" class="input tag" placeholder="india" required/>
+                
+                <button type="submit" class="btn"> Save Details </button>
+                
+                
+            </div>
+                
+                
+                
+                
+            </form>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
